@@ -1,0 +1,97 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#about {
+    scroll-margin: 110px;
+}
+
+
+#skills {
+    scroll-margin: 110px;
+}
+
+#education {
+    scroll-margin: 110px;
+}
+
+#projects {
+    scroll-margin: 110px;
+    margin-bottom: 300px;
+}
+
+#testimonials {
+    scroll-margin: 110px;
+    margin-bottom: 200px;
+}
+
+#timg {
+    margin-top: 100px;
+}
+
+#timage{
+    margin-bottom: 100px;
+}
+
+#contact {
+    scroll-margin: 110px;
+}
+
+#image {
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+#nav {
+    width: 100%;
+    float: left
+}
+
+#body {
+    width: 100%
+}
+
+#tcontainer {
+    background-color: #f2fbff;
+}
+
+
+
+
+
+
+#form {
+    margin-bottom: 300px;
+}
+
+
+
+
+
+.pics {
+    width: 35%;
+    aspect-ratio: 1 !important;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+
+.circle {
+    width: 35%;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
+    margin-bottom: 5px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.projects-container img {
+    max-width: 400px;
+    flex-grow: 1;
+    object-fit: cover;
+}

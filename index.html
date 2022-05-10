@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Home</title>
 </head>
-<body class="bg-white m-auto">
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-dark">
+<body class="bg-white m-auto full-screen-preview">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container-fluid">
-            <img src="/assets/letter-s-logo-template-140917-02-.jpg" width="35" height="35">
+            <img class="landing rounded-circle" src="/assets/letter-s-logo-template-140917-02-.jpg" width="35" height="35">
             <a class="navbar-brand text-white" href="/index.html">Siliziwe</a>
         <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,20 +44,25 @@
         </div>
         </div>
     </nav>
-    <section id="about">
+    <section class="py-5" id="landing">
+        <div class="container-fluid triangle vh-100">
     <div class="card w-100 mx-auto bg-white opacity-25">
-        <img class="card-img-top" src="/assets/lion-wallpaper-20091014462415-scaled.jpg" alt="Sli's Profile">
+        <img class="card-img-top" src="/assets/lion-wallpaper-20091014462415-scaled.jpg" id="coverimage" alt="Sli's Profile">
         <div class="card-img-overlay text-white">
-            <h2 class="text-white fst-italic">Hey There, I'm Siliziwe Pani, an <br>aspiring Web Developer</h2>
+            <h2 class="text-white fst-italic text-start">Hey There, I'm Siliziwe Pani, an <br>aspiring Web Developer</h2>
             <i class="bi bi-facebook"></i>    <i class="bi bi-whatsapp"></i>    <i class="bi bi-instagram"></i>
         </div>
+    </div>
         <br><br><br><br><br>
-        <div class="container-fluid bg-light h-100">
-            <h1 class="text-dark text-center text-decoration-underline">About Me</h1>
+    </section>
+<section class="py-5" id="about">
+
+    <div class="py-5 container h-100" id="tcontainer">
+        <h1 class="text-dark text-center text-decoration-underline bg-secondary">About Me</h1>
             <br><br><br><br><br>
             <div class="row">
                 <div class="col">
-                    <img src="/assets/Silizwe (1).JPG" class="rounded-circle" alt="Siliziwe" width="400" height="500">
+                    <img src="/assets/Silizwe (1).JPG" id="image" alt="Siliziwe" width="400" height="500">
                 </div>
                 <div class="col">
                     <h3 class="fw-bolder text-dark">Hi there! I'm Siliziwe Pani</h3>
@@ -68,38 +74,37 @@
                         This is who I am. Nobody said you had to like it. I'm hoping you find my awkwardness cute rather than weird. <br>When I'm wrong, I'm the worst. When I'm good, I'm the best. My success is just postponed for some time. I have not failed yet.<br>
 
                 </p> <h4>Share: <i class="bi bi-facebook"></i>    <i class="bi bi-whatsapp"></i>    <i class="bi bi-instagram"></i>    <i class="bi bi-github"></i></h4></div>
-        </div> </div><br><br>
-    
+        </div>
+    </div><br><br>
 
 
-    
-        <div class="container-fluid bg-light h-100">
+        <div class="container h-100" id="tcontainer">
             <br><br><br><br><br>
             <div class="row">
                 <div class="col">
-                    <p class="text-dark"></p>
-                    <h3>Web Design</h3>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque veniam necessitatibus doloribus assumenda cupiditate quia amet molestiae. Recusandae reiciendis odit temporibus odio voluptatem quo eos iste, impedit itaque quasi officiis!
+                    <p class="text-light">
+                    <img src="/227-2274443_png-file-web-design-icon-svg.png" alt="icon" height="25" width="25"><h3>Web Design</h3>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque veniam necessitatibus doloribus assumenda cupiditate quia amet molestiae. Recusandae reiciendis odit temporibus odio voluptatem quo eos iste, impedit itaque quasi officiis! </p></div>
                 </div>
                 <div class="col">
-                    <p class="text-dark"></p>
-                    <h3>Illustrator</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
+                    <p class="text-light">
+                    <img src="/assets/shape-builder-tool-line-icon-tools-and-design-vector-21539986.webp" alt="icon" height="35" width="35"><h3>Illustrator</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!</p>
                 </div>
                 <div class="col">
-                    <p class="text-dark"></p>
-                    <h3>Branding Identity</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
+                    <p class="text-light">
+                    <img src="/branding-identity-line-icon-vector-24873618 (1).webp" alt="icon" height="40" width="40"><h3>Branding Identity</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!</p>
                 </div>
+            </div>
         </div>
-        </div>
+
     </section>
-    
         <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <section id="skills">
-        <div class="container-fluid h-100 bg-light">
-            <h1 class="text-dark text-center text-decoration-underline"> Technical Skills</h1>
+        <div class="container h-100" id="tcontainer">
+            <h1 class="text-dark text-center text-decoration-underline bg-secondary"> Technical Skills</h1>
             <div class="row">
                 <div class="col-md-4 text-dark">
                     <p>Html</p>
@@ -177,90 +182,77 @@
                         </div>
                     </div>
                 </div>
+                <br><br><br><br><br><br><br>
+                <div>
+                    <h1 class="text-center text-dark">Soft Skills</h1>
+                    <h4>Assertiveness <br> Creative <br> Communication <br> Team Work <br> Problem Solver</h4>
+                </div>
             </div>
         </div>
-
-        <br><br><br><br><br>
+    </section>
+        <br><br><br><br><br><br><br><br>
     </div>
     </section>
 
 
     <section id="education">
-        <div class="container-fluid table-responsive-lg h-100">
-            <h1 class="text-center text-decoration-underline">Education</h1>
+        <div class="container table-responsive-lg h-100" id="tcontainer">
+            <h1 class="text-center text-decoration-underline bg-secondary">Education</h1>
             <table
             class="table m-auto mt-2 table-bordered text-center table-primary
             table-hover table-striped">
                 <thead>
                     <th scope="col">Year:</th>
-                    <th scope="col">School:</th>
-                    <th scope="col">Occupation:</th>
-                    <th scope="col">Course:</th>
+                    <th scope="col">Education:</th>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">2011-2016</th>
                         <td>Battswood Primary School</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
                     </tr>
                     <tr>
                         <th scope="row">2017-2021</th>
                         <td>Sizimisele Technical High School</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
                     </tr>
                     <tr>
-                        <th scope="row">2022</th>
-                        <td>N/A</td>
-                        <td>Web Developer</td>
+                        <th scope="row">2022-present</th>
                         <td>Life Choices Academy</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </section>
-        <br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
 
     <section id="testimonials">
-        <div class="container-fluid h-100 bg-light">
-            <h1 class="text-center text-dark text-decoration-underline">Testimonials</h1>
-            <br><br><br><br>
-            <div class="row">
-                <div class="col">
-                    <img src="/assets/Philani (3).JPG" class="rounded-circle" alt="Siliziwe" width="400" height="500">
+        <div class="container text-center" id="tcontainer">
+            <h1 class="text-center text-dark">Testimonials</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="circle active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="circle" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="circle" aria-label="Slide 3"></button>
                 </div>
-                <div class="col">
-                    <h3 class="fw-bolder text-dark">Phelelani Mxathule</h3>
-                    <p class="fw-bold text-dark">Web Developer</p>
-                    <p class="text-dark">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit! <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit! <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                </p> <h4>Share: <i class="bi bi-facebook"></i>    <i class="bi bi-whatsapp"></i>    <i class="bi bi-instagram"></i>    <i class="bi bi-github"></i></h4></div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/Sibongile (1).JPG" id="timg" class="pics rounded-circle" alt="sibongile" height="500" width="450">
+                    <h5>Sibongile</h5><br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quibusdam esse, pariatur dicta possimus totam distinctio, magnam iure labore quae, fugit ipsum commodi?</p>
                 </div>
-                <div class="row">
-                    <div class="col mx-auto">
-                        <img src="/assets/Sibongile (1).JPG" class="rounded-circle" alt="Siliziwe" width="400" height="500">
-                    </div>
-                    <div class="col">
-                        <h3 class="fw-bolder text-dark">Sibongile</h3>
-                        <p class="fw-bold text-dark">Web Developer</p>
-                        <p class="text-dark">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit! <br>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit! <br>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis doloremque, nulla deleniti exercitationem cumque similique ex odio libero quos dolorem recusandae laboriosam necessitatibus omnis voluptates expedita error! Est, suscipit!
-                    </p> <h4>Share: <i class="bi bi-facebook"></i>    <i class="bi bi-whatsapp"></i>    <i class="bi bi-instagram"></i>    <i class="bi bi-github"></i></h4></div>
-                    </div>
+                <div class="carousel-item">
+                    <img src="/assets/Philani (3).JPG" id="timg" class="pics rounded-circle" alt="philani" height="500" width="450">
+                    <h5>Philani</h5><br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dignissimos cum optio reiciendis, blanditiis et laudantium debitis reprehenderit ducimus recusandae amet id, tenetur, corrupti nostrum rerum totam veritatis enim fuga.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/joel2.jpg" id="timg" class="pics rounded-circle" alt="joel" height="500" width="450">
+                    <h5>Joel</h5><br><br><br>
+                    <p>Silizwe seems to show a lot of promise as a student. I enjoy seeing him work hard on his classwork.     With the right guidance, Silizwe will continue to improve rapidly. You can count on him to be a valuable member of your team. Joel Mukanya-Coding lecturer</p>
+                </div>
+                </div>
             </div>
         </div>
     </section><br><br><br><br><br>
@@ -268,10 +260,19 @@
 
 
     <section id="projects">
-        <div class="container-fluid h-100 bg-light">
-            <h1 class="text-center text-dark">Projects</h1>
-        
-
+        <div class="container h-100" id="tcontainer">
+            <h1 class="text-center text-dark bg-secondary">Projects</h1>
+            <div class="row">
+                <div class="col-3">
+                    <img src="/assets/Adobe-Animate-2020-Logo-766x431.jpg" id="timage" width="300" height="300">
+                </div>
+                <div class="col">
+                    <img src="/assets/html_css_js.jpg" width="300" id="timage" height="300">
+                </div>
+                <div class="col">
+                    <img src="/assets/blender.jpg" width="300" id="timage" height="300">
+                </div>
+            </div>
         </div>
 
 
@@ -283,32 +284,35 @@
 
 
     <section id="contact">
-    <div class="container-fluid h-100 bg-light">
-        <h1 class="text-center text-dark">Get In Touch</h1>
+    <div class="container h-100 bg-light">
+        <h1 class="text-center text-dark bg-secondary">Get In Touch</h1>
         <div class="row">
             <div class="col">
                 21167 Tambo Road, Khayelitsha <br>
         Cape Town, Western Cape <br>
         South Africa
+        <h4>Share: <i class="bi bi-facebook"></i>    <i class="bi bi-whatsapp"></i>    <i class="bi bi-instagram"></i></h4>
             </div>
             <div class="col">
-                Contact No: 0732317742
-                Email: siliziwepani@gmail.com
+                <form action="">
+                    <div class="grid md:grid-cols-2 gap-5 md:gap-7">
+                        <input placeholder="Name here" style="outline-none" class="text-[13px] border-b-[1px] outline-none w-full border-b-neutral-200">
+                        <input placeholder="Email here" style="outline-none" class="text-[13px] border-b-[1px] outline-none w-full border-b-neutral-200">
+                    </div>
+                </form>
             </div>
             </div>
-        21167 Tambo Road, Khayelitsha <br>
-        Cape Town, Western Cape <br>
-        South Africa
+
 
     </div>
-    
+
     <br><br><br><br><br>
 
 
 
-    
-    <div class="container-fluid bg-light w-75 mx-auto">
-        <h1 class="text-center text-dark">Please fill in your details</h1>
+<section id="form">
+    <div class="container bg-light w-75 mx-auto">
+        <h1 class="text-center text-dark bg-secondary">Please fill in your details</h1>
         <form class="w-75" action="https://formspree.io/f/xayvlkgb" method="post">
             <!-- Name -->
             <div class="row my-2">
@@ -349,21 +353,150 @@
                         <option value="html">css</option>
                         <option value="html">javascript</option>
                     </select><br>
+                    <div><h4>Message</h4><textarea rows="4" placeholder="Message here" class="text-[13px] border-b-[1px] outline-none w-50 border-b-neutral-200"></textarea></div>
                     <button type="submit" class="btn btn-primary">Submit</button>
-
-            </div>
                 </div>
+            </div>
 
 
         </form>
 
     </div>
-    </section>
+</section>
+
+
+
+<section>
+    <div class="container bg-light"></div>
+    <!-- footer -->
+    <footer class="text-center text-lg-start bg-secondary text-white w-100">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Company name
+                </h6>
+                <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Products
+                </h6>
+                <p>
+                <a href="#!" class="text-reset">Angular</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">React</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Vue</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Laravel</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+                </h6>
+                <p>
+                <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Help</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Contact
+                </h6>
+                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center bg-secondary p-4">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</section>
 
 
 
 
-    
 
 
 
