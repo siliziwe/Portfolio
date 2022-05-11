@@ -104,6 +104,10 @@ h2 span {
       background-position: 600px;
     }
   }
+  section{
+      height: 100%;
+      overflow: auto;
+  }
 
 
 
