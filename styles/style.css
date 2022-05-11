@@ -4,6 +4,7 @@ html{
 
 #about {
     scroll-margin: 110px;
+    margin-top: 20%;
 }
 
 #landing {
@@ -11,8 +12,10 @@ html{
 }
 
 
+
+
 #h1 {
-    margin-top: 400px;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
     color: hsl(0, 0%, 5%);
@@ -66,8 +69,8 @@ h2 span {
     margin-left: 20px;
   }
   h2:hover span {
-    color: #fff;
-    text-shadow: 0 0 10px #fff, 0 0 20px rgb(6, 141, 253), 0 0 40px rgb(4, 148, 251);
+    color: rgb(251, 75, 11);
+    text-shadow: 0 0 10px rgb(251, 75, 11), 0 0 20px rgb(237, 245, 8), 0 0 40px rgb(255, 251, 251);
   }
 
 
@@ -81,15 +84,15 @@ h2 span {
     cursor: pointer;
     text-transform: uppercase;
   }
-  
+
   h3 {
     padding: 64px;
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 97%, 50%) 10%, hsl(0, 0%, 30%) 20%);
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(118, 97%, 50%) 10%, hsl(0, 0%, 30%) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 1s infinite linear;
   }
-  
+
   @keyframes shine {
     0% {
       background-position: 0;
@@ -114,7 +117,7 @@ h2 span {
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(17, 17, 17, 0.982);
   }
-  
+
   @media (max-width: 767px) {
     .bg-image {
       height: 1400px !important;
@@ -133,7 +136,7 @@ h2 span {
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(115, 115, 116, 0.982);
   }
-  
+
   @media (max-width: 767px) {
     .bg-image {
       height: 1400px !important;
@@ -161,7 +164,7 @@ h2 span {
 }
 
 #testimonials {
-    scroll-margin: 110px;
+    scroll-margin: 150px;
     margin-bottom: 200px;
 }
 
@@ -198,7 +201,9 @@ h2 span {
 }
 
 #tcontainer {
-    background-color: white;
+    background-color: rgb(246, 249, 248);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(125, 123, 123, 0.982);
 }
 
 
