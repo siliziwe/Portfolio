@@ -9,6 +9,11 @@ html{
 
 #landing {
     margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+#div {
+    padding-top: 5px;
 }
 
 
@@ -19,7 +24,6 @@ html{
 
 #card {
     height: 260px;
-    
 }
 
 #h1 {
@@ -54,7 +58,7 @@ h1 span {
 
 
 #h2 {
-    align-items: center;
+    float: center;
     justify-content: center;
     color: hsl(0, 0%, 28%);
     font-size: 35px;
@@ -116,6 +120,21 @@ h2 span {
       height: 100%;
       overflow: auto;
   }
+
+
+
+
+
+
+
+
+.text {
+    margin-top: 50px;
+}
+
+
+
+
 
 
 
@@ -224,7 +243,9 @@ h2 span {
     background-color: rgb(246, 249, 248);
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(125, 123, 123, 0.982);
+    padding-bottom: 50px;
 }
+
 
 
 
@@ -511,3 +532,6 @@ position: absolute;
     flex-grow: 1;
     object-fit: cover;
 }
+
+
+
