@@ -118,7 +118,7 @@ h2 span {
   }
   section{
       height: 100%;
-      overflow: auto;
+      overflow: y;
   }
 
 
